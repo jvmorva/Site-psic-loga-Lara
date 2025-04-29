@@ -1,0 +1,36 @@
+.notosans-m-2032 {
+  font: 500 1.25rem/2 "Noto sans", sans-serif;
+  letter-spacing: 0.03rem;
+}
+
+.notosans-m-2436 {
+  font: 500 1.5rem/2.25 "Noto sans", sans-serif;
+}
+
+.notosans-m-3648 {
+  font: 500 2.25rem/3 "Noto sans", sans-serif;
+}
+
+.notosans-sb-1824 {
+  font: 600 1.125rem/1.5 "Noto sans", sans-serif;
+}
+
+.notosans-sb-3648 {
+  font: 600 2.25rem/3 "Noto sans", sans-serif;
+}
+
+.roboto-r-2032 {
+  font: 400 1.25rem/2 "Roboto", sans-serif;
+}
+
+.roboto-r-2436 {
+  font-size: 1.5rem;
+  line-height: 2.25;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font: 400 1.5rem/2.25 "Roboto", sans-serif;
+}
+
+.roboto-m-2436 {
+  font: 500 1.5rem/2.25 "Roboto", sans-serif;
+}

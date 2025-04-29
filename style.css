@@ -1,0 +1,79 @@
+@import "./utilitario/tipografia.css";
+@import "./utilitario/cores.css";
+
+/* RESET */
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* CSS DO HEADER */
+
+.header-bg {
+  background-color: #000000;
+}
+
+.header-container {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.lista-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.lista-header a {
+  display: inline-block;
+  padding: 8px 0px; /* Para aumentar área do contato do click */
+}
+
+.lista-header a::after {
+  content: "";
+  display: block;
+  margin-top: -2px;
+  height: 2px;
+  width: 0%;
+  background: #fff;
+}
+
+.lista-header a:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
+
+a {
+  color: white;
+}
