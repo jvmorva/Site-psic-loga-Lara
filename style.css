@@ -74,6 +74,26 @@ a {
   transition: 0.3s;
 }
 
-a {
-  color: white;
+@media (max-width: 800px) {
+  .lista-header {
+    gap: 36px;
+    justify-content: center;
+  }
+  .lista-header li {
+    font-size: 1.125rem;
+  }
+  .lista-header a {
+    background-color: #111;
+    padding: 8px 8px;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .lista-header {
+    gap: 32px;
+  }
+  .lista-header li {
+    font-size: 1rem;
+  }
 }
