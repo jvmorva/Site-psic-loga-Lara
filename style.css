@@ -306,7 +306,7 @@ a {
 
 @media (max-width: 800px) {
   .sobre-container {
-    gap: 48px;
+    gap: 40px;
   }
   .sobre-img img {
     height: 100%;
@@ -318,36 +318,29 @@ a {
 }
 
 @media (max-width: 685px) {
+  .sobre-img img {
+    height: 100%;
+    width: 280px;
+  }
   .sobre-container {
     gap: 40px;
   }
-  .sobre-img img {
-    height: 100%;
-    width: 280px;
-  }
-  .botao {
-    font-size: 1rem;
-    padding: 12px 12px;
-  }
-}
-
-@media (max-width: 685px) {
-  .sobre-img img {
-    height: 100%;
-    width: 280px;
+  .sobre-textos {
+    padding-top: 28px;
   }
   .sobre-textos p {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-  .sobre-textos {
-    padding-top: 28px;
   }
   .sobre-textos p {
     margin-bottom: 24px;
   }
   .sobre-textos p:last-of-type {
     margin-bottom: 40px;
+  }
+  .botao {
+    font-size: 1rem;
+    padding: 12px 12px;
   }
 }
 
