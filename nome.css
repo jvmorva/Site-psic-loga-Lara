@@ -1,0 +1,80 @@
+/* CSS DA PARTE DA FLOR */
+
+.apresentacao-flor-bg {
+  background-color: #111111;
+}
+
+.apresentacao-flor-container {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  max-width: 1600px;
+  /* max-width: 1200px; - NÃO SEI DIREITO O QUE FAZER. ACHO QUE SEM ISSO FICA MELHOR, MAS 1600px TAMBÉM FICA BOM, PORÉM TENHO MEDO DE CAGAR O SITE SE DEIXAR SÓ ESSA PARTE "LIVRE"*/
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apresentacao-texto {
+  color: #f7f7f7;
+  padding: 120px 0px 80px 220px;
+}
+
+.apresentacao-texto p {
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.apresentacao-texto h1 {
+  line-height: normal;
+}
+
+.imagem-flor img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1200px) {
+  .imagem-flor {
+    display: none;
+  }
+  .apresentacao-flor-container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .apresentacao-texto {
+    padding: 60px 0px 60px 0px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .apresentacao-texto p {
+    font-size: 1rem;
+  }
+  .apresentacao-texto h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .apresentacao-texto {
+    padding: 40px 0px 40px 0px;
+  }
+  .apresentacao-texto p {
+    font-size: 1rem;
+  }
+  .apresentacao-texto h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 431px) {
+  .apresentacao-texto p {
+    font-size: 1rem;
+  }
+  .apresentacao-texto h1 {
+    font-size: 1.25rem;
+  }
+}
