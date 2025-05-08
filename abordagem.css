@@ -42,3 +42,121 @@
   top: -1136px;
   left: 1020px;
 }
+
+@media (max-width: 1475px) {
+  .flor-retangulo img {
+    width: 360px;
+    height: 1090px;
+    overflow: hidden;
+    border-radius: 0;
+    top: -1015px;
+    left: 1020px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .flor-retangulo img {
+    display: none;
+  }
+  .abordagem-textos {
+    justify-items: center;
+    margin-left: 0px;
+  }
+  .abordagem-textos p {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 1250px) {
+  .abordagem-textos {
+    margin-top: -16px;
+  }
+}
+
+@media (max-width: 850px) {
+  .abordagem-textos p {
+    font-size: 1.25rem;
+    line-height: 2rem; /* Perguntar pra Lara se ela prefere 1.875, que eh o resultado de 1.25 x 1,5* ou se mantem em 2 msm.*/
+  }
+}
+
+@media (max-width: 800px) {
+  .abordagem-textos p {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 750px) {
+  .abordagem-textos {
+    margin-top: -24px;
+  }
+  .abordagem-textos p {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 680px) {
+  .abordagem-textos {
+    margin-top: -36px;
+  }
+  .abordagem-textos h1 {
+    font-size: 2rem;
+    margin-bottom: 72px;
+  }
+  .abordagem-textos p {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 600px) {
+  .abordagem-textos {
+    margin-top: -52px;
+  }
+  .abordagem-textos h1 {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+  .abordagem-textos p {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 580px) {
+  .abordagem-textos {
+    margin-top: -60px;
+  }
+  .abordagem-textos h1 {
+    margin-bottom: 56px;
+  }
+  .abordagem-textos p {
+    max-width: 440px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .abordagem-textos p {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 470px) {
+  .abordagem-textos p {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 420px) {
+  .abordagem-textos p {
+    max-width: 328px;
+  }
+}
+
+@media (max-width: 376px) {
+  .abordagem-textos p {
+    max-width: 312px;
+  }
+}
