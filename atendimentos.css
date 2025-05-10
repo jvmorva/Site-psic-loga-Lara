@@ -28,7 +28,7 @@
   margin-bottom: 12px;
 }
 
-.atendimento-textos p:nth-of-type(2) {
+.atendimento-textos .flex:nth-of-type(2) p {
   margin-bottom: 40px;
 }
 
@@ -36,4 +36,19 @@
   padding-left: 65px;
   padding-top: 248px;
   margin-bottom: 80px;
+}
+
+.flex {
+  display: flex;
+  align-items: start;
+  margin-left: -36px;
+  gap: 12px;
+}
+
+.icone-local {
+  margin-top: 4px;
+}
+
+.icone-globo {
+  margin-top: 4px;
 }
