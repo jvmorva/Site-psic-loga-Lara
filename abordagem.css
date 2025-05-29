@@ -50,11 +50,32 @@
     overflow: hidden;
     border-radius: 0;
     top: -1015px;
-    left: 1020px;
+    left: 1000px;
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1420px) {
+  .flor-retangulo img {
+    width: 340px;
+    left: 960px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .flor-retangulo img {
+    width: 300px;
+    left: 960px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .flor-retangulo img {
+    width: 254px;
+    left: 954px;
+  }
+}
+
+@media (max-width: 1260px) {
   .flor-retangulo img {
     display: none;
   }
@@ -75,7 +96,6 @@
 
 @media (max-width: 850px) {
   .abordagem-textos p {
-    font-size: 1.25rem;
     line-height: 2rem; /* Perguntar pra Lara se ela prefere 1.875, que eh o resultado de 1.25 x 1,5* ou se mantem em 2 msm.*/
   }
 }
@@ -88,7 +108,13 @@
 
 @media (max-width: 750px) {
   .abordagem-textos p {
-    max-width: 540px;
+    font-size: 1.25rem;
+    max-width: 580px;
+  }
+  @media (max-width: 700px) {
+    .abordagem-textos p {
+      max-width: 540px;
+    }
   }
 }
 
@@ -97,9 +123,7 @@
     margin-bottom: 72px;
   }
   .abordagem-textos p {
-    font-size: 1.125rem;
     line-height: 1.8rem;
-    max-width: 520px;
   }
 }
 
@@ -110,6 +134,15 @@
   .abordagem-textos h1 {
     font-size: 1.75rem;
     margin-bottom: 60px;
+  }
+  .abordagem-textos p {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 630px) {
+  .abordagem-textos p {
+    font-size: 1.125rem;
   }
 }
 
@@ -134,8 +167,6 @@
   }
   .abordagem-textos p {
     max-width: 440px;
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
 
@@ -145,7 +176,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   .abordagem-textos p {
     max-width: 360px;
   }
@@ -155,6 +186,11 @@
   .abordagem-textos h1 {
     font-size: 1.25rem;
     margin-bottom: 40px;
+  }
+  .abordagem-textos p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 340px;
   }
 }
 

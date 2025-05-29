@@ -30,6 +30,27 @@
   display: block;
 }
 
+@media (max-width: 1440px) {
+  .imagem-flor img {
+    width: 90%;
+    justify-self: right;
+  }
+}
+
+@media (max-width: 1380px) {
+  .imagem-flor img {
+    width: 85%;
+    justify-self: right;
+  }
+}
+
+@media (max-width: 1350px) {
+  .imagem-flor img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1200px) {
   .imagem-flor {
     display: none;
