@@ -43,6 +43,10 @@
   left: 1020px;
 }
 
+.scroll-dica {
+  display: none;
+}
+
 @media (max-width: 1475px) {
   .flor-retangulo img {
     width: 360px;
@@ -177,8 +181,68 @@
 }
 
 @media (max-width: 480px) {
+  .abordagem-textos {
+    position: relative;
+  }
   .abordagem-textos p {
     max-width: 360px;
+    margin-bottom: 0;
+  }
+  .scroll {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-inline: calc(
+      (100vw - 360px) / 2
+    ); /* ----- Nesse caso, de 480px de tela, dá 60px e é o valor que deixa os conteúdos alinhados ao centro em relação ao h1, pois 480px - 360 de with = 60px. Deixei em formato de cálculo para ser responsivo.*/
+    /* ---- Existe a opção de deixar como: padding-inline: max(calc((100vw - 360px) / 2), 40px) --> esse 40px ao final do cálculo não deixa o padding ser menor que 40px de cada lado, mas até agora não foi necessário.*/
+    margin-bottom: 28px;
+  }
+  .scroll::-webkit-scrollbar {
+    /* Some com a barra de scroll */
+    display: none;
+  }
+  .scroll p {
+    min-width: 360px;
+    max-width: 100%;
+    scroll-snap-align: center;
+  }
+  .scroll-dica {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 8px;
+    animation: fadeOut 6s ease forwards;
+  }
+  .scroll-dica {
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    animation: bounce 1.2s ease-in-out infinite alternate;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-5px); /* sobe um pouquinho */
+    }
+    100% {
+      transform: translateX(-50%) translateY(0); /* volta pro lugar */
+    }
+  }
+  .scroll-dica.hidden {
+    opacity: 0;
   }
 }
 
@@ -190,7 +254,12 @@
   .abordagem-textos p {
     font-size: 1rem;
     line-height: 1.5rem;
-    max-width: 340px;
+  }
+  .scroll {
+    padding-inline: max(calc((100vw - 320px) / 2), 40px);
+  }
+  .scroll p {
+    min-width: 320px;
   }
 }
 
