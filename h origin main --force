@@ -1,0 +1,17 @@
+[33m5bb2d39[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Adicionei scroll pra abordagem na parte responsiva junto com  mais algumas otimizações
+[33m61711c2[m mais otimizações na parte responsiva de ABORDAGEM, ATENDIMENTOS, NOME e SOBRE
+[33m43c5a0b[m Adição de overflow e cover no mapa (iframe) + correções na parte responsiva de ABORDAGEM e NOME
+[33m0d639e2[m Adicionei as cores, ícones LOCAL e ONLINE e arrumei o espaçamento
+[33me5ab2ca[m Parte de ATENDIMENTOS pronta
+[33mad57634[m Parte responsiva da abordagem pronta
+[33m8ec6756[m Mais uma otimização na parte do SOBRE
+[33ma964fde[m correção na parte responsiva do sobre
+[33me9c6add[m Otimizações na parte responsiva do sobre
+[33mc7635ca[m Botão agora leva diretamente para o Whats App, com mensagem pronta.
+[33mc3cecc7[m Parte da abordagem pronta
+[33m8c4edf1[m Otimizações na parte responsiva do Sobre
+[33me6cbd27[m Conclusão do sobre, completo e responsivo
+[33m430ee99[m Parte do nome (flor inicial) completa. Ajustes na parte responsiva do header.
+[33m4f6c0d3[m Responsivo - Header
+[33m511a83e[m CSS utilitário (tipografia e cores) + Header
+[33ma306a72[m commit inicial
